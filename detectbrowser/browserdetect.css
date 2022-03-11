@@ -15,7 +15,7 @@
     background-size: 70px 70px;
 }
 
-.wrapper .browser-firefox, .browser-chrome, .browser-edge.active {
+.logos .browser.active {
     filter: grayscale(0%);
     animation-duration: 1s;
     animation-name: highlight;
