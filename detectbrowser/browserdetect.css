@@ -24,6 +24,20 @@
     animation-direction: alternate;
 }
 
+.firefox {
+    float: left;
+    margin: 25px;
+}
+
+.chrome {
+    margin: 25px;
+}
+
+.edge {
+    float: right;
+    margin: 25px;
+}
+
 @keyframes highlight {
     from {
         top: 0;
