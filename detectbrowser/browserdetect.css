@@ -1,11 +1,11 @@
-.wrapper {
+.logos {
     position: absolute;
     left: 50vw;
     top: 50vh;
     transform: translateX(-50%) translateY(-50%);
 }
 
-.wrapper .browser {
+.logos .browser-firefox, .browser-chrome, .browser-edge {
     display: inline-block;
     height: 70px;
     width: 70px;
@@ -15,23 +15,7 @@
     background-size: 70px 70px;
 }
 
-.wrapper .firefox {
-  background-image: url('icon/firefox.png');
-}
-
-.wrapper .chrome {
-  background-image: url('icon/chrome.png');
-}
-
-.wrapper .safari {
-  background-image: url('icon/safari.png');
-}
-
-.wrapper .edge {
-  background-image: url('icon/edge.png');
-}
-
-.wrapper .browser.active {
+.wrapper .browser-firefox, .browser-chrome, .browser-edge.active {
     filter: grayscale(0%);
     animation-duration: 1s;
     animation-name: highlight;
