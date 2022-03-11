@@ -1,11 +1,11 @@
-.logos {
+.wrapper {
     position: absolute;
     left: 50vw;
     top: 50vh;
     transform: translateX(-50%) translateY(-50%);
 }
 
-.logos .browser-firefox, .browser-chrome, .browser-edge {
+.wrapper .browser {
     display: inline-block;
     height: 70px;
     width: 70px;
@@ -15,7 +15,7 @@
     background-size: 70px 70px;
 }
 
-.logos .browser.active {
+.wrapper .browser.active {
     filter: grayscale(0%);
     animation-duration: 1s;
     animation-name: highlight;
