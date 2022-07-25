@@ -14,25 +14,17 @@ nav {
 
 .nav {
   height: 50px;
-  box-shadow: inset 0px 1px 17px 0px #DD6B20;
-  background: linear-gradient(to bottom, #DD6B20 5%, #CB5609 100%);
-  background-color: #DD6B20;
-  border-radius: 5px;
-  border: 1px solid #CB5609;
-  display: inline-block;
-  cursor: pointer;
-  color: #000000;
+  background-color: #8A2700;
   font-family: helvetica;
   font-size: 15px;
   font-weight: bold;
   padding: 17px 76px;
   text-decoration: none;
-}
-
-.nav:hover {
-  background: linear-gradient(to bottom, orangered 5%, #DD6B20 100%);
-  background-color: #DD6B20;
-  border: 1px solid orangered;
+  border: 3px solid #8A2700;
+  border-radius: 0.3em;
+  background: #8A2700;
+  color: #FFF;
+  cursor: pointer;
 }
   
 .nav:active {
@@ -44,23 +36,15 @@ nav {
   height: 20px;
   width: 35px;
   margin-left: 30%;
-  background: linear-gradient(to bottom, #DD6B20 5%, #CB5609 100%);
-  background-color: #DD6B20;
-  border-radius: 4px;
-  border: 1px solid #CB5609;
-  display: inline-block;
-  cursor: pointer;
-  color: #666666;
   font-family: helvetica;
   font-size: 15px;
   font-weight: bold;
   text-decoration: none;
-}
-
-.back-button:hover {
-  background: linear-gradient(to bottom, orangered 5%, #DD6B20 100%);
-  background-color: #DD6B20;
-  border: 1px solid orangered;
+  border: 3px solid #8A2700;
+  border-radius: 0.3em;
+  background: #8A2700;
+  color: #FFF;
+  cursor: pointer;
 }
 
 p {
@@ -102,23 +86,18 @@ code {
 }
 
 #RockSolid1106 a:hover {
-  color: #CB5609;
+  color: #8A2700;
   text-decoration: underline;
 }
 
 /* Hyperlink rules */
 
 a {
-  color: #CB5609;
+  color: white;
   font-weight: bold;
 }
 
 a:hover {
-  color: orangered;
+  color: #8A2700;
   cursor: pointer;
-}
-
-a:active {
-  position: relative;
-  top: 3px;
 }
