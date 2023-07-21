@@ -1,5 +1,5 @@
 const message = "Good! You look at the console. You're not too bad after all.";
-const webDesigner = "EDKTech";
+const webDesigner = "TheRealEDK";
 const extensionDesigner = "RockSolid1106";
 
 console.log(message);
